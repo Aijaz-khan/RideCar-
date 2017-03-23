@@ -11,4 +11,10 @@ class PagesController < ApplicationController
   def detail
   end
 
+  def list
+  end
+
+  def compare
+  end
+
 end

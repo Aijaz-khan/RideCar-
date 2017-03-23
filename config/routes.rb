@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root to: 'pages#main'
   get 'home', to: 'pages#home'
   get 'detail', to: 'pages#detail'
+  get 'list', to: 'pages#list'
+  get 'compare', to: 'pages#compare'
 end
