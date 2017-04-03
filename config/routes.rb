@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'detail', to: 'pages#detail'
   get 'list', to: 'pages#list'
   get 'compare', to: 'pages#compare'
+  #cars
+  get 'index', to: 'cars#index'
 end
