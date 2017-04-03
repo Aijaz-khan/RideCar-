@@ -3,6 +3,7 @@ class CarsController < ApplicationController
   layout 'main'
 
   def index
+    # @cars = Cars.all
   end
 
   def show
